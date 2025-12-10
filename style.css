@@ -1,0 +1,249 @@
+body {
+    background-color: #FFFBEA;
+}
+
+.logo-gradient {
+    width: 48px;
+    height: 48px;
+    background: linear-gradient(to bottom right, #f97316, #dc2626);
+}
+
+.nav-icon-btn {
+    color: #6c757d !important;
+}
+
+.nav-icon-btn:hover {
+    color: #fd7e14 !important;
+}
+
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+/* ************************************ */
+
+.content {
+    height: 750px;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.scroll {
+    scrollbar-width: thin;
+    scrollbar-color: #FFDBD2 transparent;
+}
+
+
+.recipe-info-box {
+    bottom: 1.5rem;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(8px);
+}
+
+.text-prep {
+    color: #f97316 !important;
+}
+
+.text-cook {
+    color: #ef4444 !important;
+}
+
+.text-serve {
+    color: #3b82f6 !important;
+}
+
+
+.recipe-title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.recipe-description {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: oklch(0.446 0.03 256.802);
+}
+
+
+
+.action-btn {
+    width: 48px;
+    height: 48px;
+    background-color: #ffe8d5;
+    color: #d35400;
+    border: none;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color .2s ease;
+    cursor: pointer;
+}
+
+.action-btn:hover {
+    background-color: #ffd1aa;
+    color: #d35400;
+
+}
+
+
+.alert-custom {
+    background-color: #fef2f2;
+    border-left: 4px solid #ef4444;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    width: 90%;
+}
+
+.ingredients-box {
+    background: #FEF3C7;
+    width: 90%;
+    height: 260px;
+
+}
+
+.num-circle {
+    width: 24px;
+    height: 24px;
+    background-color: #F97316;
+    font-size: 12px;
+    font-weight: 700;
+
+}
+
+
+
+.instructions-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    height: 260px;
+}
+
+.step-box {
+    width: 48px;
+    height: 48px;
+    background-color: #F97316;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 700;
+    flex-shrink: 0;
+}
+
+
+
+.bg-calory {
+    background-color: #FFE9D6;
+}
+
+.text-calory {
+    color: #EA580C;
+}
+
+.bg-protein {
+    background-color: #DBEAFE;
+}
+
+.text-protein {
+    color: #2563EB;
+}
+
+.bg-carbo {
+    background-color: #FEF9C3;
+}
+
+.text-carbo {
+    color: #CA8A04;
+}
+
+.bg-fat {
+    background-color: #FEE2E2;
+}
+
+.text-fat {
+    color: #DC2626;
+}
+
+.bg-fiber {
+    background-color: #DCFCE7;
+}
+
+.text-fiber {
+    color: #16A34A;
+}
+
+.bg-sodium {
+    background-color: #FCE7F3;
+}
+
+.text-sodium {
+    color: #DB2777;
+}
+
+.nutrition-icon {
+    width: 40px;
+    height: 40px;
+}
+
+.x {
+    width: 90%;
+}
+
+.bg-chef {
+    background-color: #FFFBEB;
+}
+
+.border-chef {
+    border-color: #FBBF24 !important;
+}
+
+.text-chef {
+    color: #D97706 !important;
+}
+
+.t {
+    height: 360px;
+    overflow-y: auto;
+    width: 90%;
+}
+
+
+.try-btn {
+    background: linear-gradient(to right, #f97316, #ef4444);
+    color: white;
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+    border-radius: 0.75rem;
+    transition: 0.25s ease-in-out;
+    margin-top: 10px;
+}
+
+.try-btn:hover {
+    background: linear-gradient(to right, #ea580c, #dc2626);
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    color: white;
+
+}
+
+.nav-pills .nav-link.active {
+    color: #F54A00 !important;          
+        background-color: transparent !important; 
+    border-bottom: 3px solid #F54A00;  
+    border-radius: 0;      
+}
+
+.nav-pills .nav-link:hover {
+    color: #ff7a00;
+}
+
+.nav-pills .nav-link {
+color:oklch(0.373 0.034 259.733) ;
+}
