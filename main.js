@@ -424,11 +424,11 @@ function changeReciepe() {
     }
     oldValue = newValue;
     // console.log(newValue);
-    var ingredients = ""
+    var ingredient = ""
     var instr = ""
     var tips = ""
     for (let i = 0; i < recipes[newValue].ingredients.length; i++) {
-        ingredients += `
+        ingredient += `
         <li class="d-flex align-items-start mb-3">
                                         <div
                                             class="num-circle d-flex align-items-center justify-content-center rounded-circle text-white me-3">
@@ -437,7 +437,7 @@ function changeReciepe() {
                                     </li>
         `
     }
-    for (let i = 0; i < recipes[newValue].instruction.length; i++) {
+    for (let i = 0; i < recipes[newValue].chefTips.length; i++) {
         tips += `
    <div class="d-flex align-items-start p-4 bg-chef rounded-3 border-start border-4 border-chef">
     <i class="fa-solid fa-circle-check text-chef fs-4 me-3 mt-1"></i>
@@ -445,6 +445,9 @@ function changeReciepe() {
   </div>
 
        `
+    }
+       console.log("LOOP RAN");
+
         for (let i = 0; i < recipes[newValue].instruction.length; i++) {
             instr += `
               <div class="d-flex align-items-start mb-4 ms-3">
@@ -573,7 +576,7 @@ function changeReciepe() {
                             aria-labelledby="pills-home-tab" tabindex="0">
                             <div class="ingredients-box p-4 rounded-3 mx-auto rounded-5 overflow-y-auto scroll">
                                 <ul class="list-unstyled" >
-                                    ${ingredients}
+                                    ${ingredient}
 
                                 </ul>
                             </div>
@@ -697,5 +700,5 @@ ${tips}
 
 
     }
-}
+
 
