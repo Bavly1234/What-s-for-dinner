@@ -446,7 +446,7 @@ function changeReciepe() {
 
        `
     }
-       console.log("LOOP RAN");
+       
 
         for (let i = 0; i < recipes[newValue].instruction.length; i++) {
             instr += `
